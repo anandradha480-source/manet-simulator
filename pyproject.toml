@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rl-arhm"
+version = "1.0.0"
+description = "MANET Simulator with DDPG Next-Hop Routing, AODV, and GPSR Baselines"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Antigravity Research Team" }
+]
+keywords = ["manet", "routing", "reinforcement-learning", "ddpg", "aodv", "gpsr", "pytorch"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: System :: Networking",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "scipy>=1.10.0",
+    "pandas>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/RL-ARHM/rl-arhm"
+
+[project.scripts]
+rl-arhm = "main:main"

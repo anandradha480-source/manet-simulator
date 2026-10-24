@@ -1,0 +1,32 @@
+{
+  "DDPG (Ours)": {
+    "pdr_mean": 90.16666666666666,
+    "pdr_std": 6.687467549246293,
+    "delay_mean_ms": 2.0985682067256226,
+    "delay_std_ms": 2.9707909622965026e-05,
+    "energy_mean_j": 3.3031007147274964,
+    "energy_std_j": 0.6715491379872501,
+    "breaks_mean": 0.0,
+    "breaks_std": 0.0
+  },
+  "AODV": {
+    "pdr_mean": 94.16666666666666,
+    "pdr_std": 6.394924685122966,
+    "delay_mean_ms": 2.098625093787718,
+    "delay_std_ms": 2.9024903944070294e-05,
+    "energy_mean_j": 2.36600715381675,
+    "energy_std_j": 0.4083731736980637,
+    "breaks_mean": 0.0,
+    "breaks_std": 0.0
+  },
+  "GPSR": {
+    "pdr_mean": 91.83333333333333,
+    "pdr_std": 5.744025344694592,
+    "delay_mean_ms": 2.0985678740915272,
+    "delay_std_ms": 3.227962957859639e-05,
+    "energy_mean_j": 3.3861788742237366,
+    "energy_std_j": 0.8413817221405306,
+    "breaks_mean": 0.0,
+    "breaks_std": 0.0
+  }
+}
